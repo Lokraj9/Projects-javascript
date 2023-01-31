@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Search Engine</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <i class="fa-thin fa-magnifying-glass"></i>
+        <input
+          type="text"
+          id="search-item"
+          placeholder="Search Products"
+          onkeyup="search()"
+        />
+      </form>
+      <div class="product-list" id="product-list">
+        <div class="product">
+          <img src="./Images/watch.jpg" alt="" />
+          <div class="p-details">
+            <h2>Watch for men</h2>
+            <h3>$20</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./Images/hodiee.png" alt="" />
+          <div class="p-details">
+            <h2>Hoddiee</h2>
+            <h3>$50</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./Images/sneaker.png" alt="" />
+          <div class="p-details">
+            <h2>Sneaker for men</h2>
+            <h3>$10</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./Images/womenwatch.png" alt="" />
+          <div class="p-details">
+            <h2>Watch for women</h2>
+            <h3>$20</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./Images/sneakerwomen.png" alt="" />
+          <div class="p-details">
+            <h2>Sneaker for women</h2>
+            <h3>$10</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./Images/paints.png" alt="" />
+          <div class="p-details">
+            <h2>Paints for men</h2>
+            <h3>$15</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./Images/womenpaint.png" alt="" />
+          <div class="p-details">
+            <h2>Paints for women</h2>
+            <h3>$15</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./Images/tshirt.png" alt="" />
+          <div class="p-details">
+            <h2>tshirt for men</h2>
+            <h3>$5</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./Images/tshirt for women.png" alt="" />
+          <div class="p-details">
+            <h2>tshirt for women</h2>
+            <h3>$5</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
